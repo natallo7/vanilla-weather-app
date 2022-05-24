@@ -15,8 +15,42 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
-      <script src="src/app.js"></script>
+      <div class="weather-info">
+        <div class="row">
+          <div class="col-6">
+            <h1>Amsterdam</h1>
+            <ul>
+              <li>Tuesday 16:57, scattered clouds</li>
+              <li>Humidity: 60%, Wind: 8.23km/h</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div
+              class="current-temperature-container d-flex justify-content-start"
+            >
+              <img
+                src="https://duckduckgo.com/assets/weather/icons/partly-cloudy-day.svg"
+                alt="cloudy"
+                width="100"
+              />
+              <div>
+                <span class="temperature">16</span>
+                <span class="unit">°C | °F</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/natallo7/vanilla-weather-app"
+          target="_blank"
+        >
+          Open-source code</a
+        >
+        by Natalia Lloyd</small
+      >
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
