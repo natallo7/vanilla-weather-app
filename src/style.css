@@ -16,6 +16,9 @@ li {
   margin: 0;
   padding: 0;
   color: rgba(39, 33, 66, 0.4);
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
