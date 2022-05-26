@@ -43,6 +43,6 @@ li:first-letter {
 
 .current-temperature-container .units {
   position: relative;
-  top: -44px;
-  font-size: 20px;
+  top: -38px;
+  font-size: 25px;
 }
