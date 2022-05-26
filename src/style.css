@@ -27,6 +27,7 @@ li:first-letter {
   box-shadow: 0 20px 40px rgb(65 50 100 / 20%);
   background: #ffff;
   padding: 15px;
+  font-family: "Comfortaa", cursive;
 }
 
 .weather-app-wrapper {
