@@ -47,3 +47,12 @@ li:first-letter {
   top: -38px;
   font-size: 25px;
 }
+
+.current-temperature-container .active {
+  color: #212121;
+  cursor: default;
+}
+
+.current-temperature-container .active:hover {
+  text-decoration: none;
+}
