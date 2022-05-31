@@ -53,6 +53,10 @@ li:first-letter {
   margin-top: 22px;
 }
 
+.current-temperature-container {
+  margin: 5px 12px;
+}
+
 .current-temperature-container .temperature {
   margin-left: 10px;
   font-weight: 700;
