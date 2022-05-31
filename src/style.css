@@ -14,12 +14,24 @@ ul {
 
 li {
   list-style: none;
-  margin: 0;
+  margin: 0px 0px 8px;
   padding: 0;
   color: rgba(39, 33, 66, 0.4);
 }
 
 li:first-letter {
+  text-transform: capitalize;
+}
+
+.condition-icons {
+  padding: 8px;
+}
+.description {
+  font-size: 17px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.description {
   text-transform: capitalize;
 }
 
@@ -34,6 +46,10 @@ li:first-letter {
 .weather-app-wrapper {
   margin: 60px auto;
   max-width: 800px;
+}
+
+.weather-icon {
+  margin-top: 40px;
 }
 
 .current-temperature-container .temperature {
@@ -58,8 +74,12 @@ li:first-letter {
   text-decoration: none;
 }
 
+.timestamp {
+  font-size: 12px;
+}
+
 .weather-forecast {
-  margin-top: 40px;
+  margin-top: 75px;
   text-align: center;
   line-height: 1.5;
 }
@@ -76,4 +96,8 @@ li:first-letter {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+.weather-info {
+  margin: 8px;
 }

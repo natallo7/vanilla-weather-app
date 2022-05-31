@@ -10,6 +10,10 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/02b7eefe46.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,13 +61,21 @@
               <div class="col-6">
                 <h1 id="city"></h1>
                 <ul>
-                  <li>
+                  <li class="timestamp">
                     Last updated: <strong id="date">Tuesday 16:57</strong>
                   </li>
                   <br />
-                  <li>Condition: <strong id="description"></strong></li>
-                  <li>Humidity: <strong id="humidity"></strong>%</li>
-                  <li>Wind: <strong id="wind"></strong> km/h</li>
+                  <li>
+                    <span class="condition-icons"
+                      ><i class="fa-solid fa-droplet fa-xl"></i
+                    ></span>
+                    <strong id="humidity"> </strong>%
+                  </li>
+                  <li>
+                    <span class="condition-icons"
+                      ><i class="fa-solid fa-wind fa-xl"></i></span
+                    ><strong id="wind"> </strong> km/h
+                  </li>
                 </ul>
               </div>
               <div class="col-6">
@@ -71,8 +83,17 @@
                   class="current-temperature-container d-flex justify-content-end"
                 >
                   <div class="clearfix current-temperature-container">
-                    <img src="" alt="" id="icon" class="float-left" />
+                    <img
+                      src=""
+                      alt=""
+                      id="icon"
+                      class="float-left weather-icon"
+                    />
                     <div class="float-left">
+                      <div>
+                        <strong class="description" id="description"></strong>
+                      </div>
+                      <br />
                       <span class="temperature" id="temperature"></span>
                       <span class="units"
                         ><a href="#" id="celsius-link" class="active">°C</a> |
