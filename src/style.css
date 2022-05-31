@@ -66,15 +66,6 @@ li:first-letter {
   font-size: 25px;
 }
 
-.current-temperature-container .active {
-  color: #212121;
-  cursor: default;
-}
-
-.current-temperature-container .active:hover {
-  text-decoration: none;
-}
-
 .timestamp {
   font-size: 12px;
 }
