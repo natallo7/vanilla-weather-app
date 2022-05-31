@@ -110,7 +110,6 @@ function handleSubmit(event) {
 }
 
 function displayCurrentLocation(position) {
-  console.log(position.data);
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
   let apiKey = "1dff453389cac27359664305dda50aa0";
