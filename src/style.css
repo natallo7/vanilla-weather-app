@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/903/original/background-3.jpg?1654017158");
+  background-size: cover;
   min-height: 100vh;
 }
 
@@ -40,6 +41,7 @@ li:first-letter {
   border-radius: 15px;
   box-shadow: 0 20px 40px rgb(65 50 100 / 20%);
   background: #ffff;
+  opacity: 90%;
   padding: 15px;
   font-family: "Comfortaa", cursive;
 }
