@@ -96,3 +96,14 @@ li:first-letter {
 .weather-info {
   margin: 8px;
 }
+
+@media (max-width: 960px) {
+  .current-temperature-container .temperature {
+    font-size: 70px;
+  }
+
+  .current-temperature-container .units {
+    position: relative;
+    top: -35px;
+  }
+}
